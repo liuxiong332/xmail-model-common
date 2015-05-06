@@ -1,11 +1,11 @@
 {
   "name": "xmail-model-common",
   "description": "the common model segment for xmail client",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "homepage": "https://github.com/liuxiong332/xmail-model-common",
   "bugs": "https://github.com/liuxiong332/xmail-model-common/issues",
   "license": "MIT",
-  "main": "dist/xmail-model-common.js",
+  "main": "dist/model-common.js",
   "author": {
     "name": "liuxiong",
     "email": "liuxiong332@163.com"
@@ -17,11 +17,9 @@
   "files": [
     "dist"
   ],
-  "keywords":[],
+  "keywords": [],
   "dependencies": {
-    "lodash": "3.8.0",
-    "q": "1.3.0",
-    "debug": "2.1.3"
+    "sequelize": "^2.1.0"
   },
   "devDependencies": {
     "gulp": "^3.8.8",
